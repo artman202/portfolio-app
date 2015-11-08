@@ -1,0 +1,60 @@
+/* Empty. Add your own CSS if you like */
+
+body {color: #c3c3c3}
+
+h1 {font-family: 'exoblackitalic'; color: #E0C15A; font-weight: bold}
+h2 {font-family: 'exoregular'; color: #E0C15A}
+h3 {font-family: 'exoblackitalic'; color: #c3c3c3}
+h4 {color: #c3c3c3; font-weight: bold;}
+
+p {color: #c3c3c3}
+
+.bg-gray {background-color: #333}
+.bg-light-gray {background-color: #c3c3c3 !important}
+.bg-dark-blue {background-color: #031B24 !important}
+.bg-green {background-color: #26cc9f !important}
+
+.center {width: 100%; text-align: center;}
+.left {text-align: left !important;}
+.button-pdf { width: 180px !important}
+
+.heading {font-family: 'exoblackitalic'; color: #26cc9f; font-weight: bold; font-size: 1.6em}
+.contact-list .li {}
+
+.list-item {
+  list-style-type: disc !important;
+}
+
+.bar.bar-stable .title {color: #c3c3c3}
+.header-item {color: #c3c3c3 !important}
+
+.clear {clear: both}
+.home-scroll {overflow-y: hidden !important; overflow-x: hidden !important;}
+
+.pane {background-color: rgba(0, 0, 0, 0) !important;}
+.stars-bg {position: absolute;}
+.home-image {position: absolute; left: 0; right: 0; margin-left: auto; margin-right: auto; top: 50px; text-align: center; /*background-color: rgba(212, 17, 58, 0.5)*/}
+.bg-img-wrapper {position: absolute; width: 100% !important; height: 100%; overflow: hidden !important;}
+.home-content {margin-top: 300px; text-align: center;}
+.animate {position: absolute; left: 0; right: 0; margin-left: auto; margin-right: auto}
+.tabs-dark > .tabs{
+	background-color: #031B24 !important;
+}
+.tabs-striped .tabs {border-bottom: none !important}
+
+.port-head {position: relative; height: 212px;}
+.port-title {margin-top: 14px !important} 
+.port-img {}
+
+.indent {padding-left: 15px}
+
+.textarea {height: 6em}
+
+section {
+	background-color: #031B24 !important;
+	position: relative;
+	top: 0;
+	width: auto;
+	min-height: 800px;
+	margin: 0 auto;
+}

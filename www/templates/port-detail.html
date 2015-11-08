@@ -1,0 +1,47 @@
+<!--
+  This template loads for the 'tab.friend-detail' state (app.js)
+  'friend' is a $scope variable created in the FriendsCtrl controller (controllers.js)
+  The FriendsCtrl pulls data from the Friends service (service.js)
+  The Friends service returns an array of friend data
+-->
+<ion-view cache-view="false">
+  <ion-nav-title>{{portfolio.port_item_mod}}</ion-nav-title>  
+  <ion-content class="scroll">   
+    <section>
+      <div class="port-head pixel" style="display: block !important" data-stellar-ratio="0.5">
+        <img class="port-img" ng-src="img/{{portfolio.port_item_img}}" width="100%" />
+      </div>
+      <div class="padding pixel port-content bg-dark-blue" data-stellar-ratio="1">
+        <h3 class="port-title">
+          {{portfolio.port_item_title}}
+        </h3>
+        <br>
+        <p>
+          {{portfolio.port_item_desc}}
+          <br><br>
+          <h4>Technologies Used:</h4>
+          <ul>
+            <li class="indent" ng-repeat="item in tech">{{item}}</li>
+          </ul>
+        </p>
+        <br><br>
+        <div class="center">
+          <button ng-click="openPdf(portfolio.port_item_pdf)" class="button button-dark bg-green button-pdf">
+            View Project PDF
+          </button>
+        </div>
+      </div>
+    </section>
+      
+    </div>
+  </ion-content>
+</ion-view>
+
+<script type="text/javascript">
+  $('.scroll').stellar({
+    scrollProperty: 'transform',
+    positionProperty: 'transform',
+    horizontalScrolling: false,
+    hideDistantElements: false
+  });
+</script>
